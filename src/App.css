@@ -8,6 +8,7 @@ html, body {
 
 .App {
   text-align: center;
+  /* border: 1px solid green; */
 }
 
 .App-logo {
@@ -43,4 +44,36 @@ html, body {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.product-service-container {
+  color: black;
+  overflow:hidden;
+  height: 500px;
+  float: left;
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  
+}
+
+.prodserv-card-container {
+  margin: 0 10px;
+  /* border: 1px solid orange; */
+}
+
+.product-service-header {
+  color: black;
+  display: inline;
+}
+
+.prodserv-container {
+  height:fit-content;
+  border-radius: 8px;
+  border: 1px solid ghostwhite;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }

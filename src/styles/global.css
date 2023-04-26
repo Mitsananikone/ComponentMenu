@@ -1,0 +1,18 @@
+/* global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* styles for specific elements */
+  h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

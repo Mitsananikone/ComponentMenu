@@ -1,14 +1,15 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import './SectionNav.css';
 
-function SecnavInfoBlock({ title, body }) {
-  return (
-    <div className="secnav_infoblock">
-      <h2>{title}</h2>
-      <p>{body}</p>
-    </div>
-  );
-}
+// function SecnavInfoBlock({ title, body }) {
+//   return (
+//     <div className="secnav_infoblock">
+//       <h2>{title}</h2>
+//       <p>{body}</p>
+//     </div>
+//   );
+// }
 
 export default function SectionNav() {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -77,7 +78,7 @@ export default function SectionNav() {
                         key={index}
                       >
                         <a
-                          href="javascript:void(0)"
+                          href="#"
                           onClick={(e) => {
                             e.preventDefault();
                             handleTabClick(index);

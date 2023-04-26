@@ -67,23 +67,3 @@ const SlickSlider = () => {
 };
 
 export default SlickSlider;
-
-{
-  /* <div>
-<div>
-  <img src={`${process.env.PUBLIC_URL}/images/visa.svg`} alt="Visa" />
-</div>
-<div>
-  <img src={`${process.env.PUBLIC_URL}/images/mastercard.svg`} alt="Mastercard" />
-</div>
-<div>
-  <img src={`${process.env.PUBLIC_URL}/images/paypal.svg`} alt="PayPal" />
-</div>
-<div>
-  <img src={`${process.env.PUBLIC_URL}/images/stripe.svg`} alt="Stripe" />
-</div>
-<div>
-  <img src={`${process.env.PUBLIC_URL}/images/AmEx.svg`} alt="American Express" />
-</div>
-</div> */
-}

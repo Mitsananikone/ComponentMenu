@@ -1,0 +1,50 @@
+
+
+.card {
+    color:black;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    font-size:medium;
+    text-align: left;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    
+  }
+  
+  .card-icon {
+    font-size: 24px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    
+  }
+
+  .card-header {
+    font-size: larger;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    
+  }
+  
+  .card-link {
+    margin-top: auto;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  
+  .iconImg {
+    height: 50px;
+    width: 50px;
+  }
+
