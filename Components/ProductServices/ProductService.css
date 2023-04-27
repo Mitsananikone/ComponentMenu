@@ -1,0 +1,143 @@
+
+
+.card {
+    position: relative;
+    color:black;
+    display: inline;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    font-size:medium;
+    text-align: left;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    flex: 1 1 auto;
+    max-width: 100%;
+    margin: 10px;
+    }
+  
+  .card-icon {
+    font-size: 24px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    
+  }
+
+  .card-header {
+    font-size: larger;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    
+  }
+  
+  .card-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px; /* adjust this value as needed */
+    }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  
+  .iconImg {
+    height: 50px;
+    width: 50px;
+  }
+
+  /* .card-footer {
+    display: inline-block;
+    border: 1px solid red;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  } */
+  .prodserv-card-footer {
+    width: 300px;
+    font-size:x-small;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .prodserv-learn-more-button {
+  
+    display: flex;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    position: absolute;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+  
+  .prodserv-learn-more-button:hover {
+    background-color: lightskyblue
+  }
+  
+  .product-service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    /* border: 1px solid ghostwhite; */
+    border-radius: 8px;
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .prodserv-card-container {
+    width: calc(25% - 20px);
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  
+  .product-service-header {
+    width: 80%;
+    color: black;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .prodserv-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 8px;
+    /* border: 1px solid ghostwhite; */
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    margin-top: 100px; /* adjust as needed to account for header height */
+    margin-bottom: 30px;
+    margin-left: -10%;
+    margin-right: -10%;
+    max-width: 80%;
+  }
+  
+  /* .prodserv-card-align {
+    border: 1px solid red;
+   
+    width: 100%;
+  } */
